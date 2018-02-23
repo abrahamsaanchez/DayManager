@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DayManager</string>
+
+    <!-- General -->
+    <string name="gen_cargando">Cargando…</string>
+    <string name="gen_selec">seleccionado</string>
+    <string name="gen_selecs">seleccionados</string>
+    <string name="gen_eliminar">Eliminar</string>
+    <string name="gen_add">Añadir</string>
+    <string name="gen_cancelar">Cancelar</string>
+
+    <!-- Errores -->
+    <string name="error_conexion">Se ha producido un error de conexión</string>
+    <string name="error_vacio">Este campo es obligatorio</string>
+
+    <!-- Main -->
+    <string name="main_tit">Eventos próximos</string>
+    <string name="main_add">Añadir evento</string>
+    <string name="main_mod">Modificar evento</string>
+    <string name="main_dels">Eliminar eventos</string>
+    <string name="main_vacio">No existe ningún evento en la DB</string>
+    <string name="main_del_inf">¿Está seguro de que desea eliminar los eventos seleccionados?</string>
+    <string name="main_del_ok">Evento eliminado correctamente</string>
+    <string name="main_del_oks">Eventos eliminados correctamente</string>
+
+    <!-- Eventos -->
+    <string name="eve_tit">Título del evento</string>
+    <string name="eve_desc">Descripción del evento</string>
+    <string name="eve_fecha">Fecha del evento</string>
+    <string name="eve_hora">Hora del evento</string>
+</resources>

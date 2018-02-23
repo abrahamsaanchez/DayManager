@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abraham.daymanager.MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/famEventos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        fab:fab_addButtonColorNormal="@color/colorPrimary"
+        fab:fab_addButtonColorPressed="@color/colorPrimary"
+        fab:fab_addButtonPlusIconColor="@color/negro"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelStyle="@style/etiquetas"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminarEventos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="eliminarEventos"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_colorPressed="?attr/colorAccent"
+            fab:fab_icon="@drawable/ic_trash"
+            fab:fab_size="mini"
+            fab:fab_title="@string/main_dels"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="agregarEvento"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_colorPressed="?attr/colorAccent"
+            fab:fab_icon="@drawable/ic_add"
+            fab:fab_size="mini"
+            fab:fab_title="@string/main_add"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|start"
+        fab:fab_icon="@drawable/ic_sun"
+        fab:fab_colorNormal="?attr/colorAccent"
+        fab:fab_colorPressed="?attr/colorAccent"
+        android:onClick="modoNoche"/>
+
+</android.support.design.widget.CoordinatorLayout>

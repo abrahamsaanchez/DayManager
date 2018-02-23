@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Estilos propios para actividades -->
+
+    <!-- AppTheme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/negro_static</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimacionLateral</item>
+    </style>
+
+    <!-- Principal -->
+    <style name="StyleNoBarPrincipal" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/negro_static</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimacionLateral</item>
+    </style>
+
+    <!-- Splash Activity -->
+    <style name="Carga" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Estilos para objetos -->
+    <style name="textoDeErrores" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="etiquetas">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Animaciones -->
+    <style name="AnimacionLateral" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+</resources>

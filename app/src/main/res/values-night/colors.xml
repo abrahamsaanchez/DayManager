@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores básicos que cambian con el modo noche -->
+    <color name="negro">#FFFFFF</color>
+    <color name="blanco">#FF424242</color>
+
+</resources>

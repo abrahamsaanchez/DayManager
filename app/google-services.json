@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "760662594499",
+    "firebase_url": "https://daymanagerdb.firebaseio.com",
+    "project_id": "daymanagerdb",
+    "storage_bucket": "daymanagerdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760662594499:android:fa213f3a4733c15a",
+        "android_client_info": {
+          "package_name": "abraham.daymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760662594499-3bbobqtklv8u4hh7oer31r1tqrf6aop1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "abraham.daymanager",
+            "certificate_hash": "4ccc80524085bebb624b8cd8acd265d2d0839b91"
+          }
+        },
+        {
+          "client_id": "760662594499-312uca3fvog5du3e8p3apt0j276fe03v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpJskZe8MvhHzKg0VL9tYy2xQdAdMrJeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760662594499-312uca3fvog5du3e8p3apt0j276fe03v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

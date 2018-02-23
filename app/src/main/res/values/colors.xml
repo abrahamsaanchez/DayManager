@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#42A5F5</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <!-- Colores estáticos -->
+    <color name="negro_static">#000000</color>
+    <color name="blanco_static">#FFFFFF</color>
+
+    <!-- Colores básicos que cambian con el modo noche -->
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+
+    <!-- Colores personalizados -->
+
+    <color name="azulClaro">#81D4FA</color>
+    <color name="azulOscuro">#03A9F4</color>
+
+    <color name="grisClaro">#F5F5F5</color>
+    <color name="grisBackground">#FF424242</color>
+    <color name="grisOscuro">#9E9E9E</color>
+</resources>

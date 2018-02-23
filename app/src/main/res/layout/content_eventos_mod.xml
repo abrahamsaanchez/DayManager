@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="ocultarTeclado"
+    android:background="@color/blanco">
+
+        <ScrollView
+            android:id="@+id/scrollViewInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ocultarTeclado"
+            android:background="@color/blanco"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:onClick="ocultarTeclado"
+                android:background="@color/blanco">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/validarTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColorHint="@color/colorPrimary"
+                    app:errorTextAppearance="@style/textoDeErrores">
+
+                    <EditText
+                        android:id="@+id/tituloEvento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/eve_tit"
+                        android:inputType="textCapWords|textNoSuggestions"
+                        android:ems="10"
+                        android:maxLines="1"
+                        android:padding="8dp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/validarDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColorHint="@color/colorPrimary"
+                    app:errorTextAppearance="@style/textoDeErrores">
+
+                    <EditText
+                        android:id="@+id/descripcionEvento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/eve_desc"
+                        android:inputType="textCapWords|textNoSuggestions"
+                        android:ems="10"
+                        android:maxLines="1"
+                        android:padding="8dp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/validarFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColorHint="@color/colorPrimary"
+                    app:errorTextAppearance="@style/textoDeErrores">
+
+                    <EditText
+                        android:id="@+id/fechaEvento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/eve_fecha"
+                        android:inputType="none"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:ems="10"
+                        android:maxLines="1"
+                        android:padding="8dp"
+                        android:onClick="mostrarFecha"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/validarHora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColorHint="@color/colorPrimary"
+                    app:errorTextAppearance="@style/textoDeErrores">
+
+                    <EditText
+                        android:id="@+id/horaEvento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/eve_hora"
+                        android:inputType="none"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:ems="10"
+                        android:maxLines="1"
+                        android:padding="8dp"
+                        android:onClick="mostrarHora"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/eventoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_add"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:background="@color/blanco"
+                    android:onClick="agregarEvento"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>
